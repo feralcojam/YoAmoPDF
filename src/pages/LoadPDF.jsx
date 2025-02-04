@@ -7,7 +7,7 @@ const LoadPDF = () => {
         <div className="container">
             <div className="navbar">
                 <div className="logo-container">
-                    <img className="logo-pdf" src="/public/pdf.png" alt="logo-pdf" />
+                    <img className="logo-pdf" src="/pdf.png" alt="logo-pdf" />
                 </div>
                 <button className="sign-out">Cerrar sesión</button>
             </div>

@@ -1,10 +1,12 @@
 input[type="file"] {
     font-size: 16px;
     color: #F4D1AE;
+    margin-right: 1em;
 }
 
 input[type="file"]::-webkit-file-upload-button {
-    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
     background-color: #06BCC1;
     color: #F4EDEA;
     width: 8em;

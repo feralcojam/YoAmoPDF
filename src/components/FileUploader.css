@@ -39,3 +39,47 @@ input[type="file"]::-webkit-file-upload-button:hover {
     background-color: #12263A;
     border: 2px solid #06BCC1;
 }
+
+@media (max-width: 768px) {
+    input[type="file"] {
+        width: 50%;
+        font-size: 20px;
+        padding: 0.7em;
+    }
+
+    input[type="file"]::-webkit-file-upload-button {
+        width: 50%;
+        font-size: 20px;
+        padding: 0.7em;
+    }
+
+    .file-btn {
+        font-size: 20px;
+        padding: 0.7em;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    input[type="file"] {
+        width: 80%;
+        font-size: 24px;
+        padding: 0.7em;
+    }
+
+    input[type="file"]::-webkit-file-upload-button {
+        font-size: 24px;
+        padding: 0.7em;
+    }
+
+    .file-btn {
+        font-size: 24px;
+        padding: 0.7em;
+    }
+}

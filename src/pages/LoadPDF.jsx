@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import React from 'react'
 import './LoadPDF.css'
 import FileUploader from '../components/FileUploader'
@@ -9,7 +10,7 @@ const LoadPDF = () => {
                 <div className="logo-container">
                     <img className="logo-pdf" src="/pdf.png" alt="logo-pdf" />
                 </div>
-                <button className="sign-out">Cerrar sesión</button>
+                <Link to="/" className='sign-out'>Cerrar sesión</Link>
             </div>
             <FileUploader />
         </div>
